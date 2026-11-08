@@ -1,17 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="190" viewBox="0 0 1000 190">
-<rect width="1000" height="190" rx="24" fill="#fff7fb"/>
-<g font-family="Arial,sans-serif" text-anchor="middle">
- <g fill="#fce7f3" stroke="#f9a8d4" stroke-width="2">
-  <rect x="22" y="35" width="170" height="120" rx="18"/><rect x="216" y="35" width="170" height="120" rx="18"/>
-  <rect x="410" y="35" width="170" height="120" rx="18"/><rect x="604" y="35" width="170" height="120" rx="18"/>
-  <rect x="798" y="35" width="180" height="120" rx="18"/>
+<rect width="1000" height="190" rx="20" fill="#fff8fb"/>
+<g font-family="Arial,sans-serif">
+ <g fill="#fff" stroke="#f1bfd3" stroke-width="2">
+  <rect x="20" y="32" width="225" height="126" rx="12"/><rect x="258" y="32" width="225" height="126" rx="12"/>
+  <rect x="496" y="32" width="225" height="126" rx="12"/><rect x="734" y="32" width="246" height="126" rx="12"/>
  </g>
- <g fill="#9d174d" font-size="22" font-weight="bold">
-  <text x="107" y="91">Python</text><text x="301" y="91">Java</text><text x="495" y="91">C#</text>
-  <text x="689" y="91">JavaScript</text><text x="888" y="91">SQL</text>
+ <g fill="#db2777">
+  <circle cx="52" cy="66" r="15"/><circle cx="290" cy="66" r="15"/><circle cx="528" cy="66" r="15"/><circle cx="766" cy="66" r="15"/>
  </g>
- <g fill="#be185d" font-size="13" letter-spacing="2">
-  <text x="107" y="119">LEARNING</text><text x="301" y="119">LEARNING</text><text x="495" y="119">LEARNING</text>
-  <text x="689" y="119">LEARNING</text><text x="888" y="119">LEARNING</text>
+ <g fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M45 66h14M52 59v14"/><path d="m284 66 4 4 8-9"/><path d="M521 60h14M521 66h14M521 72h9"/><path d="m759 66 5 5 10-12"/>
+ </g>
+ <g fill="#831843" font-size="17" font-weight="bold">
+  <text x="78" y="72">Yêu cầu</text><text x="316" y="72">User Story</text>
+  <text x="554" y="72">Thiết kế test</text><text x="792" y="72">Báo cáo lỗi</text>
+ </g>
+ <g fill="#9d174d" font-size="12">
+  <text x="38" y="113">Hiểu đúng vấn đề</text><text x="276" y="113">Mô tả hành vi mong đợi</text>
+  <text x="514" y="113">Bao phủ tình huống thực tế</text><text x="752" y="113">Trình bày rõ kết quả</text>
+ </g>
+ <g stroke="#f3d2e0" stroke-width="2" fill="none">
+  <path d="M245 95h13M483 95h13M721 95h13"/>
  </g>
 </g></svg>

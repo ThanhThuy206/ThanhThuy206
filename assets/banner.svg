@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#fff7fb"/>
-    <stop offset=".52" stop-color="#fbcfe8"/>
-    <stop offset="1" stop-color="#ec4899"/>
+    <stop stop-color="#fff2f8"/>
+    <stop offset=".55" stop-color="#f9c5df"/>
+    <stop offset="1" stop-color="#f38abb"/>
   </linearGradient>
-  <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#fff" stop-opacity=".9"/>
-    <stop offset="1" stop-color="#f9a8d4" stop-opacity=".2"/>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff"/>
+    <stop offset="1" stop-color="#fff4fa"/>
   </linearGradient>
-  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
 </defs>
 <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
-<circle cx="1030" cy="48" r="105" fill="#fff" opacity=".25" filter="url(#blur)"/>
-<circle cx="150" cy="270" r="120" fill="#fff" opacity=".3" filter="url(#blur)"/>
-<circle cx="1030" cy="160" r="88" fill="url(#orb)"/>
-<circle cx="1090" cy="95" r="12" fill="#fff"/>
-<circle cx="930" cy="220" r="8" fill="#fff"/>
-<path d="M0 238 C180 190 270 295 460 245 S780 180 930 240 S1100 285 1200 220 V300 H0Z" fill="#fff" opacity=".28"/>
-<g fill="#9d174d" font-family="Georgia,serif">
-  <text x="95" y="128" font-size="62" letter-spacing="3">THANH THUY</text>
-  <text x="100" y="174" font-size="20" letter-spacing="4" fill="#831843">INFORMATION TECHNOLOGY</text>
-  <text x="100" y="211" font-size="15" letter-spacing="2" fill="#9d174d">LEARN  ·  CREATE  ·  BUILD</text>
+<path d="M0 245 C190 206 365 281 540 244 S860 220 1200 257 V300 H0Z" fill="#fff" opacity=".47"/>
+<g fill="#831843" font-family="Georgia,serif">
+  <text x="78" y="111" font-size="64">THANH THUY</text>
+  <text x="82" y="154" font-size="19" font-family="Arial,sans-serif" letter-spacing="2">SINH VIÊN CNTT  ·  ĐỊNH HƯỚNG BA / TESTER</text>
+  <text x="82" y="194" font-size="16" font-family="Arial,sans-serif" fill="#831843">LÀM RÕ YÊU CẦU  ·  KIỂM THỬ CÓ TÂM</text>
 </g>
-<g fill="#fff" opacity=".9">
-  <path d="M850 65 l8 17 18 8-18 8-8 18-8-18-18-8 18-8z"/>
-  <path d="M1120 205 l5 11 12 5-12 5-5 12-5-12-12-5 12-5z"/>
-  <circle cx="980" cy="80" r="5"/><circle cx="1150" cy="130" r="4"/><circle cx="875" cy="190" r="4"/>
+<g fill="#fff" opacity=".95">
+  <path d="M910 62c0-15 20-15 20 0 0-15 20-15 20 0 0 16-20 27-20 27s-20-11-20-27z"/>
+  <path d="M1105 204l7 14 15 7-15 7-7 15-7-15-15-7 15-7z"/>
+  <path d="M825 178l5 10 10 5-10 5-5 10-5-10-10-5 10-5z"/>
+  <circle cx="1040" cy="76" r="5"/><circle cx="1142" cy="122" r="4"/><circle cx="860" cy="220" r="4"/>
+</g>
+<g transform="translate(1004 76)">
+  <rect x="0" y="0" width="112" height="130" rx="20" fill="url(#panel)" opacity=".92" transform="rotate(7 56 65)"/>
+  <path d="M31 38h50M31 62h40M31 86h45" stroke="#ec4899" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+  <path d="m68 103 8 8 16-19" fill="none" stroke="#9d174d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </svg>
