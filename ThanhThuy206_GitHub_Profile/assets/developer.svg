@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="500" viewBox="0 0 620 500">
+<defs>
+ <linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fce7f3"/><stop offset="1" stop-color="#f9a8d4"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fdf2f8"/></linearGradient>
+</defs>
+<rect x="18" y="18" width="584" height="464" rx="34" fill="#fff7fb"/>
+<circle cx="480" cy="105" r="65" fill="#fbcfe8" opacity=".65"/>
+<circle cx="105" cy="360" r="48" fill="#fce7f3"/>
+<g fill="#ec4899" opacity=".8"><path d="M490 45l8 18 19 8-19 8-8 19-8-19-19-8 19-8z"/><path d="M125 105l6 13 14 6-14 6-6 14-6-14-14-6 14-6z"/></g>
+<!-- laptop -->
+<rect x="112" y="260" width="396" height="175" rx="18" fill="#be185d"/>
+<rect x="127" y="274" width="366" height="145" rx="10" fill="url(#screen)"/>
+<path d="M88 435h444l-28 22H116z" fill="#9d174d"/>
+<g font-family="monospace" font-size="17" fill="#be185d">
+ <text x="158" y="315">&lt;hello world /&gt;</text>
+ <text x="158" y="350" fill="#db2777">const</text><text x="220" y="350" fill="#6b5260"> creativity = true;</text>
+ <text x="158" y="385" fill="#db2777">while</text><text x="218" y="385" fill="#6b5260"> (learning) { grow(); }</text>
+</g>
+<!-- person -->
+<path d="M226 244c-7-89 29-146 91-146s101 54 91 146l-18 49H245z" fill="#6b3651"/>
+<ellipse cx="317" cy="183" rx="69" ry="80" fill="#f6c7b8"/>
+<path d="M246 177c-7-76 33-116 91-111 54 5 79 47 72 105-20-15-37-35-43-61-24 28-66 44-120 42z" fill="#6b3651"/>
+<path d="M259 217c15 17 33 25 58 25 24 0 43-8 58-25-5 50-28 76-58 76s-53-26-58-76z" fill="#f6c7b8"/>
+<circle cx="292" cy="185" r="5" fill="#513044"/><circle cx="343" cy="185" r="5" fill="#513044"/>
+<path d="M302 211q15 12 30 0" fill="none" stroke="#b45370" stroke-width="3" stroke-linecap="round"/>
+<path d="M239 286q78-57 156 0l34 90H205z" fill="#f472b6"/>
+<path d="M282 280l35 32 35-32" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+<g fill="#fff"><circle cx="188" cy="150" r="5"/><circle cx="450" cy="220" r="6"/><circle cx="430" cy="90" r="4"/></g>
+</svg>
